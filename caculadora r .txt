@@ -1,0 +1,14 @@
+public static void main(string[] args) {
+    string peso=joptionpane.showInputdialog("informe peso");
+    float peso=float.parsefloat(peso);
+    string altura= joptionpane.showInputdialog("informe altura");
+    float altura=float.parsefloat(altura);
+    float imc=peso /(altura*altura);
+    joptionpane.showmessagedialog(null,"imc ="+imc);
+    [b] if (imc <16) {
+        joptionpane.showmessagedialog(null,"muito abaixo do peso");
+        if (imc >=16eeimc<=17.49){
+            joptionpane.showInputdialog(null,"abaixo do pesso");}
+            if (imc>=17.5&&imc<imc<=24.99){
+               joptionpane.showInputdialog(null,"pesso normal!"):{
+                if (imc=25&&imc<=29.9)
